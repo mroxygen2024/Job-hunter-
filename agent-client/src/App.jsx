@@ -36,7 +36,7 @@ const App = () => {
     try {
       const base64 = (await fileToBase64(file)).split(",")[1];
       const data = await parseResume(base64);
-
+      console.log("Parse Resume Response:", data);
       setParsedData(data.parsedData);
       setSessionId(data.sessionId || null);
       setMessages([

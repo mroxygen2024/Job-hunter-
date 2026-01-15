@@ -1,4 +1,4 @@
-# **JobHunter AI – Resume Parser + Job Search Assistant**
+# **JobHunter AI: Resume Parser + Job Search Assistant**
 
 JobHunter AI is a full-stack project that helps users upload their resume, extract structured information (name, skills, experience, education), and then chat with an AI agent that finds relevant job opportunities using real-time search.
 
